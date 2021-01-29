@@ -1,0 +1,66 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.heading{
+
+background-color: #035aa6;
+
+text-align: center;
+
+padding-top: 30px;
+
+padding-bottom: 30px;
+}
+.heading ul li{
+	list-style: none; 
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.heading ul li a{
+	color: white;
+	text-decoration:none;
+	letter-spacing: 1px;
+	font-size: 18px;
+	
+}
+.heading ul li a:hover{
+color:black;
+}
+.banner{
+	width: 100%;
+	background-image: url(../img/s.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 200px 200px;
+	text-align: center;
+	margin-top: -18px;
+	
+}
+.banner h1{
+	color: green;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+
+
+}
+.banner p{
+	color: white;
+	font-style: initial;
+}
+.banner button{
+	background-color: #00ACEC;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+
+}
+.banner button:hover{
+	background-color: blue;
+}
